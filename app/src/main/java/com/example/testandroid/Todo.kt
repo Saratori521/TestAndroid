@@ -3,6 +3,7 @@ package com.example.testandroid
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.util.Date
+import kotlinx.android.synthetic.main.activity_main.*
 
 @Entity(tableName = "todos")
 data class Todo(
